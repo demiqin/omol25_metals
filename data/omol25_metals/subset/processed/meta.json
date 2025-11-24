@@ -1,0 +1,32 @@
+{
+  "data_name": "metal_omol_train_sub",
+  "domain": "graph",
+  "num_graphs": 8000,
+  "x_dim": 1,
+  "node_features_requested": [
+    "Z",
+    "pos",
+    "mulliken_charge",
+    "lowdin_charge",
+    "nbo_charge",
+    "mulliken_spin",
+    "lowdin_spin",
+    "nbo_spin"
+  ],
+  "edge_features_requested": [
+    "distance",
+    "delta",
+    "unit"
+  ],
+  "graph_feature_keys": [
+    "nl_energy",
+    "spin",
+    "homo_energy",
+    "homo_lumo_gap"
+  ],
+  "drop_node_features": [
+    "nbo_charges",
+    "mulliken_spins"
+  ],
+  "has_y": true
+}
